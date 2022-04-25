@@ -3,8 +3,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import './sass/main.scss';
 import NewsApiService from './api-servise';
 import markup from './murkup';
-// import SimpleLightbox from 'simplelightbox';
-// import 'simplelightbox/dist/simple-lightbox.min.css';
+
 
 const refs = {
     searchForm: document.querySelector('.search-form'),
