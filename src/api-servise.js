@@ -39,5 +39,12 @@ export default class NewsApiService {
   set query(newQuery) {
         this.options.params.q = newQuery;
   }
+  get pageNumber() {
+    return this.options.params.page;
+  }
+
+  set pageNumber(newNumber) {
+    this.options.params.page = newNumber;
+  }
 
 }
